@@ -1,6 +1,6 @@
-# DLSA Clean - Deep Learning Statistical Arbitrage
+# DLSA - Deep Learning Statistical Arbitrage
 
-A clean, modular reimplementation of the methodology from **"Deep Learning Statistical Arbitrage"** by Guijarro-Ordonez, Pelger, and Zanotti.
+A modular reimplementation of the methodology from **"Deep Learning Statistical Arbitrage"** by Guijarro-Ordonez, Pelger, and Zanotti.
 
 **Author:** Oualid Missaoui
 
