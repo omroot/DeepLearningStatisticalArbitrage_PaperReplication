@@ -1,0 +1,54 @@
+# Default DLSA Configuration
+# This config points to the original data directory
+
+# Paths - local data directory
+data_dir: "./data/raw"
+residuals_dir: "./data/residuals"
+results_dir: "./cache/results"
+models_dir: "./cache/models"
+
+# Factor model
+factor_model: "IPCA"
+num_factors: 5
+
+# Preprocessing
+preprocessing: "cumsum"
+
+# Training
+num_epochs: 100
+batch_size: 125
+learning_rate: 0.001
+optimizer_name: "Adam"
+validation_freq: 10
+objective: "sharpe"
+random_seed: 0
+
+# Backtest
+length_training: 1000
+stride: 125
+initial_t: 0
+rolling_retrain: true
+holding_days: 1
+transaction_cost: 0.0
+holding_cost: 0.0
+
+# Model - CNNTransformer
+model_class: "CNNTransformer"
+lookback: 30
+filter_numbers: [1, 8]
+attention_heads: 4
+hidden_units_factor: 2
+dropout: 0.25
+filter_size: 2
+
+# Weight policy
+weight_policy_name: "normal"
+weight_policy_type: "residuals"
+weight_policy_window: 6
+
+# Device
+device: "auto"
+
+# Experiment
+experiment_name: "default"
+debug: false
