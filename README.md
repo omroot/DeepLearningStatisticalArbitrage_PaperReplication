@@ -2,6 +2,8 @@
 
 A clean, modular reimplementation of the methodology from **"Deep Learning Statistical Arbitrage"** by Guijarro-Ordonez, Pelger, and Zanotti.
 
+**Author:** Oualid Missaoui
+
 ## Features
 
 - **Modular Architecture**: Clean separation of concerns with well-defined interfaces
