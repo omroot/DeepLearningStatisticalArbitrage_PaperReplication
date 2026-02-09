@@ -72,6 +72,14 @@ pip install torch numpy pandas scipy scikit-learn pyyaml
 pip install -r requirements.txt
 ```
 
+## Data
+
+The raw data required for this project can be downloaded from Dropbox:
+
+**[Download Data](https://www.dropbox.com/scl/fo/di9dls4pj7p9i7jkz6ibh/ANJUVB_yM-B0hGbiv_EyVSw?rlkey=2yfxdvj5niaowja7n76icyvcg&e=1&dl=0)**
+
+After downloading, extract the data and place it in a directory accessible to the project. Update the `data_dir` and `residuals_dir` paths in your configuration accordingly.
+
 ## Quick Start
 
 ### Using Pre-computed Residuals
@@ -107,8 +115,8 @@ Create a YAML configuration file:
 
 ```yaml
 # config.yaml
-data_dir: "../Deep_Learning_Statistical_Arbitrage_Code_Data/data"
-residuals_dir: "../Deep_Learning_Statistical_Arbitrage_Code_Data/residuals"
+data_dir: "./data"
+residuals_dir: "./data/residuals"
 results_dir: "./results"
 
 factor_model: "IPCA"
